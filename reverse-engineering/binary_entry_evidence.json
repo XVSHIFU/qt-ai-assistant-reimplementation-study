@@ -1,0 +1,292 @@
+{
+  "status": "ok",
+  "method": "exact qrc literal xrefs followed by imported QQmlApplicationEngine::load/QQuickView::setSource calls",
+  "target_imports": [
+    {
+      "iat_va": "0x287b600",
+      "symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+    },
+    {
+      "iat_va": "0x287b644",
+      "symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+    }
+  ],
+  "resources": [
+    {
+      "resource": ":/MainView.qml",
+      "literal": "qrc:/MainView.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "ascii",
+          "raw_offset": 37669097,
+          "string_va": "0x27eeae9",
+          "reference_pointer_va": "0x27eeae9"
+        },
+        {
+          "encoding": "ascii",
+          "raw_offset": 37673794,
+          "string_va": "0x27efd42",
+          "reference_pointer_va": "0x27efd42"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x41dea9",
+          "instruction": "mov dword ptr [esp], 0x27eeae9",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x41ded4",
+              "api": "QQuickView::setSource",
+              "import_symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+            }
+          ]
+        },
+        {
+          "instruction_va": "0x4420b9",
+          "instruction": "mov dword ptr [esp], 0x27efd42",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x4420f3",
+              "api": "QQuickView::setSource",
+              "import_symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+            }
+          ]
+        }
+      ],
+      "confirmed_load_calls": [
+        {
+          "call_va": "0x41ded4",
+          "api": "QQuickView::setSource",
+          "import_symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+        },
+        {
+          "call_va": "0x4420f3",
+          "api": "QQuickView::setSource",
+          "import_symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+        }
+      ]
+    },
+    {
+      "resource": ":/firstDiaLog.qml",
+      "literal": "qrc:/firstDiaLog.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "utf-16-le",
+          "raw_offset": 37669968,
+          "string_va": "0x27eee50",
+          "reference_pointer_va": "0x27eee40"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x422713",
+          "instruction": "mov dword ptr [ebp - 0x28], 0x27eee40",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x422739",
+              "api": "QQmlApplicationEngine::load",
+              "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+            }
+          ]
+        }
+      ],
+      "confirmed_load_calls": [
+        {
+          "call_va": "0x422739",
+          "api": "QQmlApplicationEngine::load",
+          "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+        }
+      ]
+    },
+    {
+      "resource": ":/updateWindow.qml",
+      "literal": "qrc:/updateWindow.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "utf-16-le",
+          "raw_offset": 37670032,
+          "string_va": "0x27eee90",
+          "reference_pointer_va": "0x27eee80"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x421889",
+          "instruction": "mov dword ptr [ebp - 0x1c], 0x27eee80",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x4218bd",
+              "api": "QQmlApplicationEngine::load",
+              "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+            }
+          ]
+        }
+      ],
+      "confirmed_load_calls": [
+        {
+          "call_va": "0x4218bd",
+          "api": "QQmlApplicationEngine::load",
+          "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+        }
+      ]
+    },
+    {
+      "resource": ":/GuideWindow.qml",
+      "literal": "qrc:/GuideWindow.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "utf-16-le",
+          "raw_offset": 37669840,
+          "string_va": "0x27eedd0",
+          "reference_pointer_va": "0x27eedc0"
+        },
+        {
+          "encoding": "utf-16-le",
+          "raw_offset": 37669904,
+          "string_va": "0x27eee10",
+          "reference_pointer_va": "0x27eee00"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x42162f",
+          "instruction": "mov dword ptr [ebp - 0x20], 0x27eedc0",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x42165a",
+              "api": "QQmlApplicationEngine::load",
+              "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+            }
+          ]
+        },
+        {
+          "instruction_va": "0x422517",
+          "instruction": "mov dword ptr [ebp - 0x28], 0x27eee00",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x42253d",
+              "api": "QQmlApplicationEngine::load",
+              "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+            }
+          ]
+        }
+      ],
+      "confirmed_load_calls": [
+        {
+          "call_va": "0x42165a",
+          "api": "QQmlApplicationEngine::load",
+          "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+        },
+        {
+          "call_va": "0x42253d",
+          "api": "QQmlApplicationEngine::load",
+          "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+        }
+      ]
+    },
+    {
+      "resource": ":/SettingsPage.qml",
+      "literal": "qrc:/SettingsPage.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "utf-16-le",
+          "raw_offset": 37668752,
+          "string_va": "0x27ee990",
+          "reference_pointer_va": "0x27ee980"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x41c972",
+          "instruction": "mov dword ptr [ebp - 0x20], 0x27ee980",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x41c995",
+              "api": "QQmlApplicationEngine::load",
+              "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+            }
+          ]
+        }
+      ],
+      "confirmed_load_calls": [
+        {
+          "call_va": "0x41c995",
+          "api": "QQmlApplicationEngine::load",
+          "import_symbol": "_ZN21QQmlApplicationEngine4loadERK4QUrl"
+        }
+      ]
+    },
+    {
+      "resource": ":/TrayIconMenu.qml",
+      "literal": "qrc:/TrayIconMenu.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "ascii",
+          "raw_offset": 37668309,
+          "string_va": "0x27ee7d5",
+          "reference_pointer_va": "0x27ee7d5"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x41c60a",
+          "instruction": "mov dword ptr [esp], 0x27ee7d5",
+          "nearby_engine_calls": [
+            {
+              "call_va": "0x41c637",
+              "api": "QQuickView::setSource",
+              "import_symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+            }
+          ]
+        }
+      ],
+      "confirmed_load_calls": [
+        {
+          "call_va": "0x41c637",
+          "api": "QQuickView::setSource",
+          "import_symbol": "_ZN10QQuickView9setSourceERK4QUrl"
+        }
+      ]
+    },
+    {
+      "resource": ":/QAndAPage.qml",
+      "literal": "qrc:/QAndAPage.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "ascii",
+          "raw_offset": 486320,
+          "string_va": "0x478db0",
+          "reference_pointer_va": "0x478db0"
+        },
+        {
+          "encoding": "utf-16-le",
+          "raw_offset": 37990040,
+          "string_va": "0x283d098",
+          "reference_pointer_va": "0x283d088"
+        }
+      ],
+      "code_references": [],
+      "confirmed_load_calls": []
+    },
+    {
+      "resource": ":/Views/AboutusPage.qml",
+      "literal": "qrc:/Views/AboutusPage.qml",
+      "literal_occurrences": [
+        {
+          "encoding": "ascii",
+          "raw_offset": 37669159,
+          "string_va": "0x27eeb27",
+          "reference_pointer_va": "0x27eeb27"
+        }
+      ],
+      "code_references": [
+        {
+          "instruction_va": "0x41ee79",
+          "instruction": "mov dword ptr [esp], 0x27eeb27",
+          "nearby_engine_calls": []
+        }
+      ],
+      "confirmed_load_calls": []
+    }
+  ]
+}

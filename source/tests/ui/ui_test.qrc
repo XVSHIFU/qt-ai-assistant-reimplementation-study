@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="/">
+    <file>markdown_smoke.qml</file>
+    <file>model_selector_smoke.qml</file>
+    <file>accessibility_smoke.qml</file>
+    <file>theme_i18n_smoke.qml</file>
+    <file alias="Controls/MarkdownText.qml">../../qml/app/Controls/MarkdownText.qml</file>
+    <file alias="Controls/ModernToolTip.qml">../../qml/app/Controls/ModernToolTip.qml</file>
+    <file alias="Controls/HotkeyRecorder.qml">../../qml/app/Controls/HotkeyRecorder.qml</file>
+    <file alias="Controls/ModernButton.qml">../../qml/app/Controls/ModernButton.qml</file>
+    <file alias="Controls/ModernComboBox.qml">../../qml/app/Controls/ModernComboBox.qml</file>
+    <file alias="Controls/ModernSwitch.qml">../../qml/app/Controls/ModernSwitch.qml</file>
+    <file alias="Controls/ModernTextField.qml">../../qml/app/Controls/ModernTextField.qml</file>
+    <file alias="Theme/LightTheme.qml">../../qml/app/Theme/LightTheme.qml</file>
+    <file alias="Component/DeepSeekModelSelector.qml">../../qml/app/Component/DeepSeekModelSelector.qml</file>
+    <file alias="Image/Icon/thinking_off.svg">../../qml/app/Image/Icon/thinking_off.svg</file>
+    <file alias="Image/Icon/thinking_on.svg">../../qml/app/Image/Icon/thinking_on.svg</file>
+    <file alias="Image/Icon/pullUp.svg">../../qml/app/Image/Icon/pullUp.svg</file>
+    <file alias="SettingsPageSource.qml">../../qml/app/SettingsPage.qml</file>
+    <file alias="MainViewSource.qml">../../qml/app/MainView.qml</file>
+    <file alias="ChatHistorySource.qml">../../qml/app/DialogModule/ChatHistory.qml</file>
+    <file alias="DataManagementPanelSource.qml">../../qml/app/DataManagementPanel.qml</file>
+  </qresource>
+</RCC>

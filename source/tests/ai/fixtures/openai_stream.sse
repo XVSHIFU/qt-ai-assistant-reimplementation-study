@@ -1,0 +1,8 @@
+: keep-alive
+
+data: {"choices":[{"delta":{"reasoning_content":"think ","content":"hello "}}]}
+
+data: {"choices":[{"delta":{"content":"world","references":[{"title":"Source","url":"https://example.test/source"}]}}],"usage":{"prompt_tokens":2,"completion_tokens":3}}
+
+data: [DONE]
+

@@ -1,0 +1,1249 @@
+{
+  "status": "ok",
+  "summary": {
+    "missing_exact_count": 59,
+    "dynamic_unresolved_count": 1,
+    "missing_local_count": 0,
+    "external_or_unresolved_type_count": 3,
+    "missing_exact_by_source_reachability": {
+      "confirmed_entry_reachable": 6,
+      "not_entry_reachable": 7,
+      "potentially_entry_reachable_dynamic": 46
+    },
+    "missing_exact_by_impact": {
+      "entry_reachable_runtime_missing_asset": 6,
+      "non_blocking_for_confirmed_entries": 7,
+      "potential_dynamic_runtime_dependency": 46
+    }
+  },
+  "missing_exact_resource_references": [
+    {
+      "source": ":/Component/SwitchView.qml",
+      "line": 100,
+      "raw_reference": "qrc:/QAndAPage.qml",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/QAndAPage.qml",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Controls/CustomSensitivitySlider1.qml",
+      "line": 181,
+      "raw_reference": "qrc:/Image/Function/Performance/travel_distance_slider_handle_pressed.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Performance/travel_distance_slider_handle_pressed.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Controls/CustomSensitivitySlider1.qml",
+      "line": 183,
+      "raw_reference": "qrc:/Image/Function/Performance/travel_distance_slider_handle_hover.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Performance/travel_distance_slider_handle_hover.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Controls/CustomSensitivitySlider1.qml",
+      "line": 184,
+      "raw_reference": "qrc:/Image/Function/Performance/travel_distance_slider_handle_normal.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Performance/travel_distance_slider_handle_normal.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Controls/CustomSensitivitySlider1_New.qml",
+      "line": 210,
+      "raw_reference": "qrc:/Image/Function/Performance/vertial_travel_distance_slider_handle_pressed.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Performance/vertial_travel_distance_slider_handle_pressed.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Controls/CustomSensitivitySlider1_New.qml",
+      "line": 212,
+      "raw_reference": "qrc:/Image/Function/Performance/vertial_travel_distance_slider_handle_hover.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Performance/vertial_travel_distance_slider_handle_hover.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Controls/CustomSensitivitySlider1_New.qml",
+      "line": 213,
+      "raw_reference": "qrc:/Image/Function/Performance/vertial_travel_distance_slider_handle_normal.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Performance/vertial_travel_distance_slider_handle_normal.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable",
+      "impact": "non_blocking_for_confirmed_entries"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 42,
+      "raw_reference": "dark-theme-image.png",
+      "kind": "relative_resource",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Theme/dark-theme-image.png",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 45,
+      "raw_reference": "qrc:/Image/Icon/ms_maxBettary_dark.png",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/ms_maxBettary_dark.png",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 48,
+      "raw_reference": "qrc:/Image/Function/Lighting/add_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/add_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 49,
+      "raw_reference": "qrc:/Image/Function/Lighting/add_hover_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/add_hover_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 50,
+      "raw_reference": "qrc:/Image/Function/Lighting/dynamic_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/dynamic_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 51,
+      "raw_reference": "qrc:/Image/Function/Lighting/dynamic_checked_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/dynamic_checked_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 52,
+      "raw_reference": "qrc:/Image/Function/Lighting/static_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/static_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 53,
+      "raw_reference": "qrc:/Image/Function/Lighting/static_checked_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/static_checked_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 54,
+      "raw_reference": "qrc:/Image/Function/Lighting/up_and_down_gradient_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/up_and_down_gradient_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 55,
+      "raw_reference": "qrc:/Image/Function/Lighting/up_and_down_gradient_hover_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/up_and_down_gradient_hover_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 56,
+      "raw_reference": "qrc:/Image/Function/Lighting/up_and_down_gradient_pressed_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/up_and_down_gradient_pressed_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 57,
+      "raw_reference": "qrc:/Image/Function/Lighting/left_and_right_gradient_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/left_and_right_gradient_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 58,
+      "raw_reference": "qrc:/Image/Function/Lighting/left_and_right_gradient_hover_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/left_and_right_gradient_hover_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 59,
+      "raw_reference": "qrc:/Image/Function/Lighting/left_and_right_gradient_pressed_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/left_and_right_gradient_pressed_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 62,
+      "raw_reference": "qrc:/Image/Function/Remap/edit_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/edit_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 63,
+      "raw_reference": "qrc:/Image/Function/Remap/edit_hover_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/edit_hover_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 64,
+      "raw_reference": "qrc:/Image/Function/Remap/edit_pressed_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/edit_pressed_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 65,
+      "raw_reference": "qrc:/Image/Function/Remap/delete_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/delete_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 66,
+      "raw_reference": "qrc:/Image/Function/Remap/delete_hover_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/delete_hover_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 67,
+      "raw_reference": "qrc:/Image/Function/Remap/delete_pressed_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/delete_pressed_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 68,
+      "raw_reference": "qrc:/Image/Function/Remap/download_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/download_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 69,
+      "raw_reference": "qrc:/Image/Function/Remap/download_hover_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/download_hover_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 70,
+      "raw_reference": "qrc:/Image/Function/Remap/download_pressed_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/download_pressed_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 71,
+      "raw_reference": "qrc:/Image/Function/Remap/return_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/return_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 72,
+      "raw_reference": "qrc:/Image/Function/Remap/import_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/import_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 73,
+      "raw_reference": "qrc:/Image/Function/Remap/export_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/export_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 75,
+      "raw_reference": "qrc:/Image/Function/Remap/create_new_macro_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/create_new_macro_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 76,
+      "raw_reference": "qrc:/Image/Function/Remap/create_new_macro_hover.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/create_new_macro_hover.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 77,
+      "raw_reference": "qrc:/Image/Function/Remap/create_new_macro_pressed.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/create_new_macro_pressed.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 78,
+      "raw_reference": "qrc:/Image/Function/Remap/start_recording_normal_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/start_recording_normal_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 79,
+      "raw_reference": "qrc:/Image/Function/Remap/start_recording_pressed.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/start_recording_pressed.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 80,
+      "raw_reference": "qrc:/Image/Function/Remap/recorded_content_panel_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/recorded_content_panel_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 81,
+      "raw_reference": "qrc:/Image/Function/Remap/key_press_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/key_press_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 82,
+      "raw_reference": "qrc:/Image/Function/Remap/key_release_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/key_release_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 83,
+      "raw_reference": "qrc:/Image/Function/Remap/left_mouse_button_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/left_mouse_button_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 84,
+      "raw_reference": "qrc:/Image/Function/Remap/middle_mouse_button_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/middle_mouse_button_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 85,
+      "raw_reference": "qrc:/Image/Function/Remap/right_mouse_button_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/right_mouse_button_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 86,
+      "raw_reference": "qrc:/Image/Function/Remap/key_press_day.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/key_press_day.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 87,
+      "raw_reference": "qrc:/Image/Function/Remap/key_release_day.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Remap/key_release_day.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 90,
+      "raw_reference": "qrc:/Image/Function/Version/device_firmware_update_icon_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Version/device_firmware_update_icon_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 91,
+      "raw_reference": "qrc:/Image/Function/Version/dongle_firmware_update_icon_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Version/dongle_firmware_update_icon_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 92,
+      "raw_reference": "qrc:/Image/Function/Version/power_setting_icon_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Version/power_setting_icon_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 93,
+      "raw_reference": "qrc:/Image/Function/Lighting/toggleBtn_off_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Lighting/toggleBtn_off_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 94,
+      "raw_reference": "qrc:/Image/Function/Version/power_setting_control_background_dark.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Function/Version/power_setting_control_background_dark.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/DarkTheme.qml",
+      "line": 155,
+      "raw_reference": "qrc:/Image/TitleView/update_dark.png",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/TitleView/update_dark.png",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/Theme/NeutralTheme.qml",
+      "line": 42,
+      "raw_reference": "dark-theme-image.png",
+      "kind": "relative_resource",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Theme/dark-theme-image.png",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic",
+      "impact": "potential_dynamic_runtime_dependency"
+    },
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 167,
+      "raw_reference": "qrc:/Image/Icon/100battery_image.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/100battery_image.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable",
+      "impact": "entry_reachable_runtime_missing_asset"
+    },
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 170,
+      "raw_reference": "qrc:/Image/Icon/100battery_image.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/100battery_image.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable",
+      "impact": "entry_reachable_runtime_missing_asset"
+    },
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 172,
+      "raw_reference": "qrc:/Image/Icon/80battery_image.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/80battery_image.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable",
+      "impact": "entry_reachable_runtime_missing_asset"
+    },
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 174,
+      "raw_reference": "qrc:/Image/Icon/50battery_image.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/50battery_image.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable",
+      "impact": "entry_reachable_runtime_missing_asset"
+    },
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 176,
+      "raw_reference": "qrc:/Image/Icon/30battery_image.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/30battery_image.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable",
+      "impact": "entry_reachable_runtime_missing_asset"
+    },
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 177,
+      "raw_reference": "qrc:/Image/Icon/10battery_image.svg",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": false,
+      "resolved_target": ":/Image/Icon/10battery_image.svg",
+      "status": "missing",
+      "exists": false,
+      "resolvable": true,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable",
+      "impact": "entry_reachable_runtime_missing_asset"
+    }
+  ],
+  "dynamic_unresolved_references": [
+    {
+      "source": ":/TrayIconMenu.qml",
+      "line": 16,
+      "raw_reference": "qrc:/Theme/",
+      "kind": "qrc_url",
+      "active": true,
+      "dynamic": true,
+      "resolved_target": ":/Theme",
+      "status": "dynamic_prefix_exists_unresolved",
+      "exists": true,
+      "resolvable": false,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    }
+  ],
+  "missing_local_imports": [],
+  "missing_local_components": [],
+  "external_or_unresolved_types": [
+    {
+      "source": ":/Controls/ShadowRectangle.qml",
+      "line": 39,
+      "type": "InnerShadow",
+      "status": "external_or_unresolved_type",
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "source": ":/SettingsPage.qml",
+      "line": 482,
+      "type": "ItemDelegate",
+      "status": "external_or_unresolved_type",
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/SettingsPage.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "source": ":/SettingsPage.qml",
+      "line": 566,
+      "type": "ItemDelegate",
+      "status": "external_or_unresolved_type",
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/SettingsPage.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    }
+  ]
+}

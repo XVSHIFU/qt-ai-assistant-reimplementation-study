@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "product": "SmartKey AI",
+  "version": "2.0.0",
+  "platform": "win",
+  "architecture": "x86",
+  "directory_name": "SmartKeyAI-2.0.0-win-x86",
+  "release_status": "unsigned-development",
+  "authenticode_status": "NotSigned",
+  "run_id": "20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+  "source_hash": "1a7dc4d2d71fbf1142a1d0d8934a114c2c196a34ecb1a60836efe5792cf1416a",
+  "built_at": "2026-08-20T05:39:15.0979272Z",
+  "generated_at": "2026-08-20T05:46:47.721237Z",
+  "exe_sha256": "ceed07634eab756d835571113cf5b024034e72a20b6e8b805eb24df647058ab7",
+  "toolchain": {
+    "qmake": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\5.15.2\\mingw81_32\\bin\\qmake.exe",
+    "gxx": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\Tools\\mingw810_32\\bin\\g++.exe",
+    "mingw32_make": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\Tools\\mingw810_32\\bin\\mingw32-make.exe",
+    "qmake_version": "QMake version 3.1\r\nUsing Qt version 5.15.2 in C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/lib",
+    "qt_version": "5.15.2",
+    "qt_install_prefix": "C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32",
+    "compiler_dumpmachine": "i686-w64-mingw32",
+    "compiler_version": "g++.exe (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 8.1.0",
+    "make_version": "GNU Make 4.2.1"
+  }
+}

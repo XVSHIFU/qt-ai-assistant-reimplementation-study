@@ -1,0 +1,1541 @@
+{
+  "status": "ok",
+  "method": "static member-chain and Connections handler extraction; no runtime metaobject introspection",
+  "objects": [
+    {
+      "object": "manager",
+      "role": "tray/menu controller",
+      "status": "referenced",
+      "occurrence_count": 2,
+      "required_for_confirmed_entries": true,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "currentTheme",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 16,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "itemClicked",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 104,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "dialog_manager",
+      "role": "AI chat/dialog controller",
+      "status": "referenced",
+      "occurrence_count": 44,
+      "required_for_confirmed_entries": true,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "addNewChat",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 802,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "appended",
+          "access_kind": "signal_subscription",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 54,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "copy",
+          "access_kind": "method_call",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 120,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 320,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "currentIndex",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 47,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "currentIndex",
+          "access_kind": "property_write",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 78,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 219,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "deleteChatAtIndex",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 251,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "dialogInfoModel",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 48,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "dialogModel",
+          "access_kind": "property_read",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 32,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 52,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "dialogModel.clearAll",
+          "access_kind": "method_call",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 80,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 221,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "dialogModel.rowCount",
+          "access_kind": "method_call",
+          "occurrence_count": 4,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 72,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 213,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 384,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 797,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "isChatEmpty",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 19,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "isHistoryEmpty",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 465,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "modifyTitleAtIndex",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 169,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "parseJSONToCurrentChat",
+          "access_kind": "method_call",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 81,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 222,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "reasonModeActive",
+          "access_kind": "property_read",
+          "occurrence_count": 4,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 128,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 179,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 647,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 691,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "reasonModeActive",
+          "access_kind": "property_write",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 179,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 691,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "regenerate",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 371,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "responseGenerated",
+          "access_kind": "property_read",
+          "occurrence_count": 8,
+          "locations": [
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 73,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 214,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 232,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 283,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 305,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 357,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 385,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 798,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "searchModeActive",
+          "access_kind": "property_read",
+          "occurrence_count": 4,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 192,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 242,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 702,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 746,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "searchModeActive",
+          "access_kind": "property_write",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 242,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 746,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "sendMessage",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 390,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "device_list_HL",
+      "role": "connected Rapoo device list controller",
+      "status": "referenced",
+      "occurrence_count": 17,
+      "required_for_confirmed_entries": true,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "deviceDisconnection",
+          "access_kind": "signal_subscription",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/SwitchView.qml",
+              "line": 109,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "deviceListChanged",
+          "access_kind": "signal_subscription",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 248,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "deviceModel.get",
+          "access_kind": "method_call",
+          "occurrence_count": 9,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 44,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 238,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 239,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 240,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 241,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 255,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 256,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 257,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 258,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "deviceModel.rowCount",
+          "access_kind": "method_call",
+          "occurrence_count": 5,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 37,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 42,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 11,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 234,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 251,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "reCurConfigure",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 200,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "window",
+      "role": "C++ window/ViewHandler-facing object",
+      "status": "referenced",
+      "occurrence_count": 75,
+      "required_for_confirmed_entries": true,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "agreePolicy",
+          "access_kind": "property_read",
+          "occurrence_count": 4,
+          "locations": [
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 160,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 163,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 264,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 293,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "agreePolicy",
+          "access_kind": "property_write",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 163,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "allowQuestion",
+          "access_kind": "property_read",
+          "occurrence_count": 5,
+          "locations": [
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 356,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 272,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 274,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 338,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 381,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "height",
+          "access_kind": "property_read",
+          "occurrence_count": 6,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 12,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 401,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 515,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 525,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 555,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 562,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "height",
+          "access_kind": "property_write",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 398,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "newVersionNumber",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/updateWindow.qml",
+              "line": 107,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "notEnough",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 273,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "openWebsite",
+          "access_kind": "method_call",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 191,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 209,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "radius",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/SwitchView.qml",
+              "line": 69,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "scale",
+          "access_kind": "property_read",
+          "occurrence_count": 5,
+          "locations": [
+            {
+              "file": ":/Controls/SelectableText.qml",
+              "line": 6,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/ChatHistory.qml",
+              "line": 8,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/DialogPanel.qml",
+              "line": 9,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/DialogModule/MorePopup.qml",
+              "line": 14,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 15,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "setDialog",
+          "access_kind": "method_call",
+          "occurrence_count": 5,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 112,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 393,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 512,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 522,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 560,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "setFirstStart",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/firstDiaLog.qml",
+              "line": 295,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "setHistory",
+          "access_kind": "method_call",
+          "occurrence_count": 3,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 511,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 521,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 552,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "setXandY",
+          "access_kind": "method_call",
+          "occurrence_count": 10,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 110,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 290,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 295,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 303,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 308,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 401,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 515,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 525,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 555,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 562,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "showGuideWindow",
+          "access_kind": "method_call",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/updateWindow.qml",
+              "line": 149,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/updateWindow.qml",
+              "line": 205,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "skinMode",
+          "access_kind": "property_write",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 211,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 214,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "sysSkinType",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Controls/CustomToolTip.qml",
+              "line": 20,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "topScreen",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 614,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "topScreen",
+          "access_kind": "property_write",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 614,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "updateSoft",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/updateWindow.qml",
+              "line": 229,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "width",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 11,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "x",
+          "access_kind": "property_read",
+          "occurrence_count": 10,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 110,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 290,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 295,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 303,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 308,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 401,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 515,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 525,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 555,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 562,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "y",
+          "access_kind": "property_read",
+          "occurrence_count": 10,
+          "locations": [
+            {
+              "file": ":/MainView.qml",
+              "line": 110,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 290,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 295,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 303,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 308,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 401,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 515,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 525,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 555,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/MainView.qml",
+              "line": 562,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "setting",
+      "role": "settings/update controller; likely SettingsPageManager instance",
+      "status": "referenced",
+      "occurrence_count": 13,
+      "required_for_confirmed_entries": true,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "checkUpdate",
+          "access_kind": "method_call",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 306,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 103,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "currentVersion",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 257,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "setStartUpAuto",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 428,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "startUpAuto",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 423,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "startUpAuto",
+          "access_kind": "property_write",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 427,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "totalCount",
+          "access_kind": "property_read",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 353,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 369,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "updated",
+          "access_kind": "property_read",
+          "occurrence_count": 3,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 78,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 280,
+              "source_reachability": "confirmed_entry_reachable"
+            },
+            {
+              "file": ":/TrayIconMenu.qml",
+              "line": 78,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "usedCount",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 353,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "usedNumCount",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/SettingsPage.qml",
+              "line": 382,
+              "source_reachability": "confirmed_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "themeManager",
+      "role": "theme state controller",
+      "status": "referenced",
+      "occurrence_count": 5,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "currentTheme",
+          "access_kind": "property_read",
+          "occurrence_count": 3,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 204,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 209,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 212,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "currentTheme",
+          "access_kind": "property_write",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 210,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 213,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "configure_Manager",
+      "role": "device configuration controller",
+      "status": "referenced",
+      "occurrence_count": 4,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "deleteDevice",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 38,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "initDevice",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 45,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "keyboardName",
+          "access_kind": "property_read",
+          "occurrence_count": 2,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 100,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 102,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "config_set_HL",
+      "role": "configuration/update controller",
+      "status": "referenced",
+      "occurrence_count": 2,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "getRemoteDriverUpdateLog",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 191,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "updated",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 141,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "lang_HL",
+      "role": "language controller",
+      "status": "referenced",
+      "occurrence_count": 1,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "optLanguageName",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 53,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "pairmanager",
+      "role": "device pairing controller",
+      "status": "referenced",
+      "occurrence_count": 1,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "init",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 235,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "kb_travelDistance_manager",
+      "role": "keyboard travel/calibration controller",
+      "status": "referenced",
+      "occurrence_count": 7,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": [
+        {
+          "member_path": "adapCalibration",
+          "access_kind": "property_read",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 322,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "exitCalibOrDemoMode",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 320,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "physicalTravel",
+          "access_kind": "property_read",
+          "occurrence_count": 4,
+          "locations": [
+            {
+              "file": ":/Controls/CustomSensitivitySlider1.qml",
+              "line": 24,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Controls/CustomSensitivitySlider1.qml",
+              "line": 73,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Controls/CustomSensitivitySlider1_New.qml",
+              "line": 26,
+              "source_reachability": "not_entry_reachable"
+            },
+            {
+              "file": ":/Controls/CustomSensitivitySlider1_New.qml",
+              "line": 59,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        },
+        {
+          "member_path": "setWasdShake",
+          "access_kind": "method_call",
+          "occurrence_count": 1,
+          "locations": [
+            {
+              "file": ":/Component/WindowTitleBar.qml",
+              "line": 323,
+              "source_reachability": "not_entry_reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "recordDataModel",
+      "role": "requested legacy/candidate model name",
+      "status": "not_referenced_in_recovered_qml",
+      "occurrence_count": 0,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": []
+    },
+    {
+      "object": "chatHistoryModel",
+      "role": "requested legacy/candidate model name",
+      "status": "not_referenced_in_recovered_qml",
+      "occurrence_count": 0,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": []
+    },
+    {
+      "object": "SettingsPageManager",
+      "role": "requested C++ type/concept name",
+      "status": "not_referenced_in_recovered_qml",
+      "occurrence_count": 0,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": []
+    },
+    {
+      "object": "ViewHandler",
+      "role": "requested C++ type/concept name",
+      "status": "not_referenced_in_recovered_qml",
+      "occurrence_count": 0,
+      "required_for_confirmed_entries": false,
+      "required_for_potential_dynamic_entries": false,
+      "members": []
+    }
+  ],
+  "requested_name_analysis": {
+    "SettingsPageManager": {
+      "literal_reference": false,
+      "inferred_instance": "setting",
+      "basis": "SettingsPage.qml and TrayIconMenu.qml use setting.* for update/startup/account properties"
+    },
+    "ViewHandler": {
+      "literal_reference": false,
+      "inferred_instance": "window",
+      "basis": "top-level QML calls window.setXandY/setDialog/showGuideWindow/updateSoft and reads window state"
+    },
+    "recordDataModel": {
+      "literal_reference": false,
+      "replacement_observed": null
+    },
+    "chatHistoryModel": {
+      "literal_reference": false,
+      "replacement_observed": [
+        "dialog_manager.dialogModel",
+        "dialog_manager.dialogInfoModel"
+      ]
+    }
+  }
+}

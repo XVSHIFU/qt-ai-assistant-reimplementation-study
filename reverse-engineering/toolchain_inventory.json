@@ -1,0 +1,105 @@
+{
+  "status": "ok",
+  "target": {
+    "qt_version": "5.15.2",
+    "architecture": "x86",
+    "compiler": "MinGW"
+  },
+  "workspace": "C:\\Users\\worker\\Documents\\smartAIKEY",
+  "application_runtime_directory": "C:\\Users\\worker\\Documents\\smartAIKEY\\鍙傝€僜SmartKey AI",
+  "search_scope": [
+    "PATH",
+    "C:/Qt",
+    "C:/Program Files/Qt",
+    "C:/Program Files (x86)/Qt",
+    "C:/msys64",
+    "C:/mingw32",
+    "C:/mingw64",
+    "%LOCALAPPDATA%/Programs/Qt",
+    "reconstruction_analysis/_toolchain",
+    "Visual Studio bundled CMake path"
+  ],
+  "tools": {
+    "qmake": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    },
+    "qmlscene": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    },
+    "qmlimportscanner": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    },
+    "qmlcachegen": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    },
+    "cmake": {
+      "available": true,
+      "on_path": false,
+      "candidates": [
+        {
+          "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+          "version_probe": {
+            "command": [
+              "--version"
+            ],
+            "exit_code": 0,
+            "output": "cmake version 4.3.1-msvc1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake)."
+          }
+        }
+      ]
+    },
+    "g++": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    },
+    "mingw32-make": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    },
+    "ninja": {
+      "available": false,
+      "on_path": false,
+      "candidates": []
+    }
+  },
+  "development_artifacts": {
+    "qt_headers_qglobal_h": [],
+    "qt_core_import_libraries": [],
+    "mingw_import_libraries": []
+  },
+  "application_runtime": {
+    "qt_dlls": [],
+    "qml_module_count": 0,
+    "qml_modules": [],
+    "static_or_import_archives": []
+  },
+  "qml_engine_validation": {
+    "available": false,
+    "validator": null,
+    "mode": "static_only",
+    "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness."
+  },
+  "project_local_toolchain_plan": {
+    "install_root": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction_analysis\\_toolchain\\Qt",
+    "required_kit": "Qt 5.15.2 MinGW 8.1.0 32-bit (mingw81_32)",
+    "required_components": [
+      "Qt 5.15.2 mingw81_32 bin/include/lib/qml",
+      "Qt Tools mingw810_32 compiler"
+    ],
+    "usage": [
+      "Do not add the kit globally to PATH; invoke its binaries by absolute path.",
+      "Set QML2_IMPORT_PATH to the application runtime directory for its deployed QtQuick modules.",
+      "Use qmlcachegen for parser/compile checks and an isolated qmlscene harness only after backend mocks exist."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+QT += qml quick gui
+CONFIG += c++11 console
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = qml_ui_smoke
+SOURCES += qml_ui_smoke.cpp ../../src/app/uipreferences.cpp
+HEADERS += ../../src/app/uipreferences.h
+INCLUDEPATH += ../../src
+RESOURCES += ui_test.qrc
+TRANSLATIONS += ../../translations/smartkey_zh_CN.ts ../../translations/smartkey_en_US.ts
+CONFIG += lrelease embed_translations
+QM_FILES_RESOURCE_PREFIX = /i18n

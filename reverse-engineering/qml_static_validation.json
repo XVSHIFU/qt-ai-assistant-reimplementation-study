@@ -1,0 +1,1728 @@
+{
+  "status": "ok",
+  "validation_mode": "static_only",
+  "engine_validation_claim": false,
+  "summary": {
+    "qml_file_count": 29,
+    "static_pass_count": 29,
+    "static_fail_count": 0,
+    "engine_validation_run_count": 0,
+    "active_reference_count": 234,
+    "missing_active_reference_count": 59,
+    "dynamic_unresolved_reference_count": 1,
+    "confirmed_entry_reachable_qml_count": 15,
+    "potential_dynamic_qml_count": 2,
+    "not_entry_reachable_qml_count": 12
+  },
+  "entry_roots": [
+    ":/GuideWindow.qml",
+    ":/MainView.qml",
+    ":/SettingsPage.qml",
+    ":/TrayIconMenu.qml",
+    ":/firstDiaLog.qml",
+    ":/updateWindow.qml"
+  ],
+  "files": [
+    {
+      "resource_path": ":/Component/SwitchView.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Component\\SwitchView.qml",
+      "size": 2852,
+      "sha256": "9d9c00ef504f727c8c6beb8c0acaba1a624648654bb5f746222ceccc5a7b582e",
+      "encoding": "utf-8-sig",
+      "decode_error": null,
+      "root_object": "Item",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 1,
+      "local_component_usage_count": 1,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Component/WindowTitleBar.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Component\\WindowTitleBar.qml",
+      "size": 12414,
+      "sha256": "9ba0649227af804da29899965404efe6c3a26d8b9c42a97192e37c07fd4e819f",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Item",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Window",
+          "version": "2.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Window.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "../Controls",
+          "target": ":/Controls",
+          "line": 4,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 2,
+      "local_component_usage_count": 9,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/CustomRadioButton2.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\CustomRadioButton2.qml",
+      "size": 960,
+      "sha256": "eb2b96befa2ccf9a3553cbc550218924e362067b4b66a1f6b1a43b6a3673e981",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "RadioButton",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 3,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/firstDiaLog.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/CustomSensitivitySlider1.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\CustomSensitivitySlider1.qml",
+      "size": 11576,
+      "sha256": "7c5ba0930264653e5e19b7ddaf37da360c4539777ab679e98bbb670fe765e3c4",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Rectangle",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Layouts",
+          "version": "1.12",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Layouts",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 3,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/CustomSensitivitySlider1_New.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\CustomSensitivitySlider1_New.qml",
+      "size": 13182,
+      "sha256": "b54d82f69ac995f81b3d1dd2b6e1ef3bbdcd726be9744959937276d85f22544b",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Rectangle",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Layouts",
+          "version": "1.12",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Layouts",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 3,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/CustomToggleButton.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\CustomToggleButton.qml",
+      "size": 766,
+      "sha256": "6f99b7f5da6a555a860097902fef20af2671c48900c60f38778d3fb472fd421d",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Button",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Layouts",
+          "version": "1.12",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Layouts",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 2,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/SettingsPage.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/CustomToolTip.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\CustomToolTip.qml",
+      "size": 1018,
+      "sha256": "4c0d0a980c91bd0dadaadb5af304bdbf8560ae1be3ff4f1c438b7f3e11538cb8",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "ToolTip",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/ImageButton.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\ImageButton.qml",
+      "size": 1484,
+      "sha256": "f6d571386637bb85d63a8d74a1b977265eceee32eba18aa78e3351041fe26629",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Rectangle",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Layouts",
+          "version": "1.12",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Layouts",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 4,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 1,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/PushButton.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\PushButton.qml",
+      "size": 2627,
+      "sha256": "56f45f1d4d4a6ffc350cd63685eaeed8ef1e319c5e7644d53d80e6f04c173902",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Rectangle",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Layouts",
+          "version": "1.12",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Layouts",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 4,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 1,
+      "local_component_usage_count": 1,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/SelectableText.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\SelectableText.qml",
+      "size": 847,
+      "sha256": "e470ae727201254c2fbf61027b4cef92ade10aecda1e0c1aed08d39d4f743259",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "TextEdit",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/MainView.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/Controls/ShadowRectangle.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Controls\\ShadowRectangle.qml",
+      "size": 1030,
+      "sha256": "1335d54e2b75e87fcee075d66c521f6473478601a1011b0c11b8fb6d6e86f12b",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Item",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/DialogModule/ChatHistory.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\DialogModule\\ChatHistory.qml",
+      "size": 9171,
+      "sha256": "5432b04fc92595980f9e985b82bff877576fa8353ddbb13804ac39dc90960a9c",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Item",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 4,
+      "local_component_usage_count": 1,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/MainView.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/DialogModule/DialogPanel.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\DialogModule\\DialogPanel.qml",
+      "size": 21313,
+      "sha256": "49b1e4812696606d479fb3ae1c2f7093178004f521b9629a00aea089d1deb660",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Rectangle",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "../Controls",
+          "target": ":/Controls",
+          "line": 3,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 14,
+      "local_component_usage_count": 4,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/MainView.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/DialogModule/MorePopup.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\DialogModule\\MorePopup.qml",
+      "size": 4005,
+      "sha256": "e38239156aae7bd0fbe18b16148aa329163d7d3309928a4e0a345d5e67311622",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Popup",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 2,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/MainView.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/firstDiaLog.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\firstDiaLog.qml",
+      "size": 10147,
+      "sha256": "2e4844ac87e21dc7e1091e30bb5a61491fdc54eb70814ce4f46eecfb349a6c73",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "ApplicationWindow",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Window",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Window.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 4,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "./Controls",
+          "target": ":/Controls",
+          "line": 5,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "Component",
+          "target": ":/Component",
+          "line": 6,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 7,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 8,
+      "local_component_usage_count": 1,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/firstDiaLog.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/FontManager.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\FontManager.qml",
+      "size": 1235,
+      "sha256": "5da31f73af22a50915ec154a9be5265025c190f05330ccb4dd5b1051df5b804a",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "QtObject",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 8,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/GuideWindow.qml",
+        ":/MainView.qml",
+        ":/SettingsPage.qml",
+        ":/TrayIconMenu.qml",
+        ":/firstDiaLog.qml",
+        ":/updateWindow.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/GraphicalEffects/DesaturateEffect.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\GraphicalEffects\\DesaturateEffect.qml",
+      "size": 74,
+      "sha256": "f5643432d2862e2e158b9c16b65427e43bb2bda90dfe0f9114d6832d114ed573",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Desaturate",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/GraphicalEffects/DropShadowEffect.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\GraphicalEffects\\DropShadowEffect.qml",
+      "size": 72,
+      "sha256": "9a5017900885b412d0725c208cb3c716475e6668e1fc134d4663d3b06071caef",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "DropShadow",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/SettingsPage.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/GraphicalEffects/FastBlurEffect.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\GraphicalEffects\\FastBlurEffect.qml",
+      "size": 89,
+      "sha256": "b436de50fc76b3683351d3a9311aded0cc195d0d10f49971f170fd5d96c09048",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "FastBlur",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/GraphicalEffects/GlowEffect.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\GraphicalEffects\\GlowEffect.qml",
+      "size": 68,
+      "sha256": "0cb28ab7301fda8e326ca0c1c74bbb0fb162af18ac0952020eb4537656088474",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Glow",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/GraphicalEffects/OpacityMaskEffect.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\GraphicalEffects\\OpacityMaskEffect.qml",
+      "size": 73,
+      "sha256": "577c9d1d61bdeb68dad0794d50e2f0efcfd41c56d9abae9252daccc64e029635",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "OpacityMask",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 0,
+      "local_component_usage_count": 0,
+      "reachability": "not_entry_reachable",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [],
+      "source_reachability": "not_entry_reachable"
+    },
+    {
+      "resource_path": ":/GuideWindow.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\GuideWindow.qml",
+      "size": 5689,
+      "sha256": "9d349090cb767e43e1ae818fa40175bc1d36ddcabd4e360659ed16408255d94f",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "ApplicationWindow",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Window",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Window.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 4,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "./Controls",
+          "target": ":/Controls",
+          "line": 5,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "Component",
+          "target": ":/Component",
+          "line": 6,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 7,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 9,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/GuideWindow.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/MainView.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\MainView.qml",
+      "size": 32364,
+      "sha256": "794ee9881ce5dd352381ec2b26c7cb6f6b91990ddf98fa00a6810d209292f1a8",
+      "encoding": "utf-8-sig",
+      "decode_error": null,
+      "root_object": "Item",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Window",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Window.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.12",
+          "alias": null,
+          "line": 4,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "Component",
+          "target": ":/Component",
+          "line": 5,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "Controls",
+          "target": ":/Controls",
+          "line": 6,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "DialogModule",
+          "target": ":/DialogModule",
+          "line": 7,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 8,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 34,
+      "local_component_usage_count": 2,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/MainView.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/SettingsPage.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\SettingsPage.qml",
+      "size": 20700,
+      "sha256": "e8979d4de135b908f82f2ff151ff6f39f343a4659a03ab24c8b6778e33eed822",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "ApplicationWindow",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "./Controls",
+          "target": ":/Controls",
+          "line": 4,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 5,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 16,
+      "local_component_usage_count": 2,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/SettingsPage.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/Theme/DarkTheme.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Theme\\DarkTheme.qml",
+      "size": 10667,
+      "sha256": "052e10375ef66f346609b63961f9c927fb52f328443480f981333facc5957af6",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "QtObject",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 102,
+      "local_component_usage_count": 0,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic"
+    },
+    {
+      "resource_path": ":/Theme/LightTheme.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Theme\\LightTheme.qml",
+      "size": 1349,
+      "sha256": "55d4f75ca1bce2c0ccb9de483b854928a14a7d8c2d4d2cb169188b960db0a76b",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "QtObject",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 1,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/GuideWindow.qml",
+        ":/MainView.qml",
+        ":/firstDiaLog.qml",
+        ":/updateWindow.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/Theme/NeutralTheme.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\Theme\\NeutralTheme.qml",
+      "size": 1522,
+      "sha256": "71f8f287bafa2f792af7940c1f158aec5057c2b1e098dad0b025a66a3d2eec40",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "QtObject",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 1,
+      "local_component_usage_count": 0,
+      "reachability": "potentially_entry_reachable_dynamic",
+      "reachable_from_entry": false,
+      "potentially_reachable_from_dynamic_entry": true,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "potentially_entry_reachable_dynamic"
+    },
+    {
+      "resource_path": ":/TrayIconMenu.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\TrayIconMenu.qml",
+      "size": 11181,
+      "sha256": "dc32c1aa2a5974e66c742130db7911475ee87c661ad4286638e03190e9071bce",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "Item",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/Controls",
+          "target": ":/Controls",
+          "line": 3,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 4,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 17,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/TrayIconMenu.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    },
+    {
+      "resource_path": ":/updateWindow.qml",
+      "file": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\recovered_qrc_tree\\updateWindow.qml",
+      "size": 7344,
+      "sha256": "4edafa49f1155cf00eb762d1e6f1768fc719f4f413b4433c81aa04170b42798f",
+      "encoding": "utf-8",
+      "decode_error": null,
+      "root_object": "ApplicationWindow",
+      "imports": [
+        {
+          "kind": "qt_module",
+          "module": "QtQuick",
+          "version": "2.15",
+          "alias": null,
+          "line": 1,
+          "deployed_module_directory": "QtQuick.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Window",
+          "version": "2.15",
+          "alias": null,
+          "line": 2,
+          "deployed_module_directory": "QtQuick/Window.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtQuick.Controls",
+          "version": "2.15",
+          "alias": null,
+          "line": 3,
+          "deployed_module_directory": "QtQuick/Controls.2",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "qt_module",
+          "module": "QtGraphicalEffects",
+          "version": "1.15",
+          "alias": null,
+          "line": 4,
+          "deployed_module_directory": "QtGraphicalEffects",
+          "status": "runtime_module_not_confirmed"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "./Controls",
+          "target": ":/Controls",
+          "line": 5,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "Component",
+          "target": ":/Component",
+          "line": 6,
+          "alias": null,
+          "status": "exists_directory"
+        },
+        {
+          "kind": "local_directory",
+          "raw": "qrc:/GraphicalEffects",
+          "target": ":/GraphicalEffects",
+          "line": 7,
+          "alias": null,
+          "status": "exists_directory"
+        }
+      ],
+      "delimiter_string_comment_checks": {
+        "passed": true,
+        "errors": []
+      },
+      "structural_errors": [],
+      "static_status": "static_checks_passed",
+      "engine_validation": {
+        "status": "not_run",
+        "mode": "static_only",
+        "reason": "Qt 5.15.2 runtime DLLs and QML modules are present, but no qmlscene/qmlcachegen, qmake, Qt headers, or Qt import libraries were found; the application executable is not a controlled per-file validation harness.",
+        "engine_valid": null
+      },
+      "resource_reference_count": 8,
+      "local_component_usage_count": 0,
+      "reachability": "confirmed_entry_reachable",
+      "reachable_from_entry": true,
+      "potentially_reachable_from_dynamic_entry": false,
+      "entry_origins": [
+        ":/updateWindow.qml"
+      ],
+      "source_reachability": "confirmed_entry_reachable"
+    }
+  ]
+}

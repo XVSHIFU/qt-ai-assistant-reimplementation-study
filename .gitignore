@@ -1,0 +1,40 @@
+# Local secrets and user data
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+settings.ini
+credentials*
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# Generated build products that are not the curated final release
+build/
+build*/
+_agent_build/
+_toolchain/
+reports/
+**/__pycache__/
+*.pyc
+*.o
+*.obj
+*.moc
+Makefile
+Makefile.*
+.qmake.stash
+target_wrapper.bat
+object_script.*
+
+# Editor and OS state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
