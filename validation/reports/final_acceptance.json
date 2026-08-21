@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "run_id": "20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+  "source_hash": "1a7dc4d2d71fbf1142a1d0d8934a114c2c196a34ecb1a60836efe5792cf1416a",
+  "verified_at": "2026-08-20T05:47:04.902975Z",
+  "release_status": "unsigned-development",
+  "development_package_override": true,
+  "behavioral": {
+    "status": "PASS",
+    "passed": 31,
+    "total": 31,
+    "checks": {
+      "artifact_provenance_current_and_consistent": true,
+      "build_pass": true,
+      "pe_is_x86": true,
+      "release_uses_windows_gui_subsystem": true,
+      "qml_engine_pass": true,
+      "qml_engine_has_no_warnings": true,
+      "keyboard_reveal_focuses_chat_input": true,
+      "settings_window_adaptive_smoke": true,
+      "settings_window_taskbar_contract": true,
+      "settings_window_visual_smoke": true,
+      "model_picker_visual_smoke": true,
+      "model_picker_reopens_after_close": true,
+      "history_panel_visual_smoke": true,
+      "delete_confirm_visual_smoke": true,
+      "tooltip_visual_smoke": true,
+      "screenshot_nonempty": true,
+      "production_module_tests_pass": true,
+      "standalone_package_pass": true,
+      "application_pe_package_version_consistent": true,
+      "release_manifest_hashes_valid": true,
+      "package_published_atomically": true,
+      "release_signature_gate": true,
+      "package_runtime_complete": true,
+      "package_uses_windows_gui_subsystem": true,
+      "package_settings_visual_smoke": true,
+      "package_model_picker_visual_smoke": true,
+      "package_model_picker_reopens_after_close": true,
+      "package_history_visual_smoke": true,
+      "package_delete_confirm_visual_smoke": true,
+      "package_tooltip_visual_smoke": true,
+      "package_settings_taskbar_contract": true
+    }
+  },
+  "static_contract": {
+    "status": "PASS",
+    "passed": 29,
+    "total": 29,
+    "checks": {
+      "markdown_remote_content_is_safe": true,
+      "editable_qml_tree_preserves_260_resources": true,
+      "model_picker_dismissal_consumes_click": true,
+      "system_ui_and_code_fonts_selected": true,
+      "no_fake_aboutuspage": true,
+      "hotkey_is_visibility_toggle": true,
+      "model_selector_adapts_to_name": true,
+      "legacy_broker_not_in_ai_transport": true,
+      "first_reveal_is_above_taskbar": true,
+      "mock_contract_covered": true,
+      "production_renderer_is_not_forced_software": true,
+      "history_pin_is_persistent": true,
+      "all_json_utf8_parseable_without_bom": true,
+      "main_window_has_system_drag_entry": true,
+      "provider_settings_ui_enabled": true,
+      "deepseek_dynamic_model_picker": true,
+      "recovered_260_hashes_match": true,
+      "message_list_performance_guards": true,
+      "markdown_code_highlighting_and_tables": true,
+      "conversation_expand_control_is_stable": true,
+      "credential_save_survives_profile_reload": true,
+      "modern_tooltips_are_shared": true,
+      "qrc_uses_editable_tree": true,
+      "no_fake_qandapage": true,
+      "history_actions_use_stable_ids": true,
+      "copy_action_has_success_feedback": true,
+      "deepseek_thinking_profile_supported": true,
+      "markdown_message_rendering": true,
+      "thinking_icon_has_state_contrast": true
+    },
+    "note": "source-token and structural checks; excluded from behavioral totals"
+  },
+  "provenance": {
+    "status": "PASS",
+    "run_id": "20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+    "source_hash": "1a7dc4d2d71fbf1142a1d0d8934a114c2c196a34ecb1a60836efe5792cf1416a",
+    "exe_sha256": "ceed07634eab756d835571113cf5b024034e72a20b6e8b805eb24df647058ab7",
+    "checks": {
+      "manifest_complete": true,
+      "build_matches_manifest": true,
+      "source_tree_matches_build": true,
+      "build_report_fresh": true,
+      "build_executable_hash_matches": true,
+      "reports_inherit_build_identity": true,
+      "time_order_valid": true,
+      "behavioral_reports_fresh": true,
+      "package_executable_hash_matches": true,
+      "build_and_package_executable_identical": true
+    },
+    "errors": [],
+    "live": {
+      "included": false,
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\live_deepseek_validation.json",
+      "status": "NOT_RUN_OR_NOT_REQUIRED",
+      "reason": "opt-in; excluded from default gate"
+    }
+  },
+  "json_files": [
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\recovered_file_hashes.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\backend_contract_coverage.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\build_verification.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\final_acceptance.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\live_deepseek_validation.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\mock_contract_coverage.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\module_test_results.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\package_verification.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\qml_engine_validation.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\recovered_copy_verification.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\run_manifest.json",
+      "utf8_bom": false,
+      "status": null
+    },
+    {
+      "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\toolchain_setup.json",
+      "utf8_bom": false,
+      "status": "PASS"
+    }
+  ],
+  "executable": {
+    "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\build\\release\\SmartKeyAIReconstruction.exe",
+    "size": 38139904,
+    "sha256": "ceed07634eab756d835571113cf5b024034e72a20b6e8b805eb24df647058ab7",
+    "pe_machine": "0x014c",
+    "pe_machine_name": "IMAGE_FILE_MACHINE_I386",
+    "pe_subsystem": "0x0002",
+    "pe_subsystem_name": "IMAGE_SUBSYSTEM_WINDOWS_GUI"
+  },
+  "screenshot": {
+    "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\mainview_smoke.png",
+    "size": 14168,
+    "sha256": "3435c47c90dbf3eaf04effb31c72eaed58520c941fadec4aff3de485eabb8eeb",
+    "capture_method": "grabToImage_after_grabWindow_attempt"
+  },
+  "settings_screenshot": {
+    "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\settings_smoke.png",
+    "size": 41652
+  },
+  "model_picker_screenshot": {
+    "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\model_picker_smoke.png",
+    "size": 14502
+  },
+  "delete_confirm_screenshot": {
+    "path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\delete_confirm_smoke.png",
+    "size": 64860
+  },
+  "package": {
+    "status": "PASS",
+    "package": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86",
+    "version": "2.0.0",
+    "release_name": "SmartKeyAI-2.0.0-win-x86",
+    "release_status": "unsigned-development",
+    "development_package": true,
+    "staging_directory": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\.staging-SmartKeyAI-2.0.0-win-x86-20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+    "published_atomically": true,
+    "signature": {
+      "status": "unsigned-development",
+      "authenticode_status": "NotSigned",
+      "signer_subject": null,
+      "public_release_valid": false
+    },
+    "release_manifest": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\release-manifest.json",
+    "sha256sums_manifest": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\SHA256SUMS.json",
+    "sbom": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\sbom.spdx.json",
+    "manifest_hashes_valid": true,
+    "validation_kind": "behavioral",
+    "run_id": "20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+    "source_hash": "1a7dc4d2d71fbf1142a1d0d8934a114c2c196a34ecb1a60836efe5792cf1416a",
+    "built_at": "2026-08-20T05:39:15.0979272Z",
+    "packaged_at": "2026-08-20T05:46:34.7755607Z",
+    "tested_at": "2026-08-20T05:46:53.3827023Z",
+    "build_exe_sha256": "ceed07634eab756d835571113cf5b024034e72a20b6e8b805eb24df647058ab7",
+    "package_executable": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\SmartKeyAI.exe",
+    "package_sha256": "ceed07634eab756d835571113cf5b024034e72a20b6e8b805eb24df647058ab7",
+    "environment": {
+      "os": "Microsoft Windows NT 10.0.26200.0",
+      "process_architecture": "X64",
+      "machine": "WINDOWS-5MKMPAH",
+      "ci": false
+    },
+    "file_count": 882,
+    "standalone_path": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86;C:\\windows\\System32;C:\\windows",
+    "toolchain_on_smoke_path": false,
+    "pe_subsystem": 2,
+    "pe_subsystem_name": "IMAGE_SUBSYSTEM_WINDOWS_GUI",
+    "release_has_no_console_subsystem": true,
+    "smoke_data_root": "C:\\Users\\worker\\AppData\\Local\\Temp\\SmartKeyAI-smoke-package-417fae30b85c4421bf19b1d2e29c7050",
+    "smoke_data_root_reported": true,
+    "config_database_and_log_paths_isolated": true,
+    "legacy_autostart_and_hotkey_state_access_disabled": true,
+    "real_user_state_before_sha256": "BB205A47C8A61E205B36E1687E768091F99CACFE24D7BBD47B63FF83342365A2",
+    "real_user_state_after_sha256": "BB205A47C8A61E205B36E1687E768091F99CACFE24D7BBD47B63FF83342365A2",
+    "real_user_state_unchanged": true,
+    "smoke_data_root_cleaned": true,
+    "smoke_exit_code": 0,
+    "root_object_non_null": true,
+    "screenshot": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\package_smoke.png",
+    "screenshot_size": 14168,
+    "settings_screenshot": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\settings_smoke.png",
+    "settings_screenshot_size": 41652,
+    "model_picker_screenshot": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\model_picker_smoke.png",
+    "model_picker_screenshot_size": 14502,
+    "history_screenshot": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\history_smoke.png",
+    "history_screenshot_size": 62113,
+    "delete_confirm_screenshot": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\delete_confirm_smoke.png",
+    "delete_confirm_screenshot_size": 64860,
+    "tooltip_screenshot": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\dist\\SmartKeyAI-2.0.0-win-x86\\tooltip_smoke.png",
+    "tooltip_screenshot_size": 16111,
+    "settings_taskbar_window_contract": true,
+    "model_picker_reopens_after_close": true,
+    "qml_warning_or_error_lines": [],
+    "qwindows_present": true,
+    "qsqlite_present": true,
+    "openssl_library_count": 0
+  },
+  "live_deepseek": {
+    "included_in_gate": false,
+    "report": null,
+    "note": "opt-in and excluded from the default gate"
+  }
+}

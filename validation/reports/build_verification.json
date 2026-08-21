@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "clean_build": true,
+  "project": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\SmartKeyAIReconstruction.pro",
+  "build_directory": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\build",
+  "executable": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\build\\release\\SmartKeyAIReconstruction.exe",
+  "run_id": "20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+  "source_hash": "1a7dc4d2d71fbf1142a1d0d8934a114c2c196a34ecb1a60836efe5792cf1416a",
+  "built_at": "2026-08-20T05:39:15.0979272Z",
+  "exe_sha256": "ceed07634eab756d835571113cf5b024034e72a20b6e8b805eb24df647058ab7",
+  "application_version": "2.0.0",
+  "pe_version_resource_valid": true,
+  "pe_version_resource": {
+    "file_version": "2.0.0.0",
+    "product_version": "2.0.0.0",
+    "product_name": "SmartKey AI",
+    "company_name": "SmartKeyAI",
+    "file_description": "SmartKey AI Desktop Assistant",
+    "original_filename": "SmartKeyAIReconstruction.exe"
+  },
+  "environment": {
+    "os": "Microsoft Windows NT 10.0.26200.0",
+    "process_architecture": "X64",
+    "machine": "WINDOWS-5MKMPAH",
+    "ci": false
+  },
+  "executable_size": 38139904,
+  "pe_subsystem": 2,
+  "pe_subsystem_name": "IMAGE_SUBSYSTEM_WINDOWS_GUI",
+  "release_has_no_console_subsystem": true,
+  "tools": {
+    "qmake": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\5.15.2\\mingw81_32\\bin\\qmake.exe",
+    "gxx": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\Tools\\mingw810_32\\bin\\g++.exe",
+    "mingw32_make": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\Tools\\mingw810_32\\bin\\mingw32-make.exe",
+    "qmake_version": "QMake version 3.1\r\nUsing Qt version 5.15.2 in C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/lib",
+    "qt_version": "5.15.2",
+    "qt_install_prefix": "C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32",
+    "compiler_dumpmachine": "i686-w64-mingw32",
+    "compiler_version": "g++.exe (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 8.1.0",
+    "make_version": "GNU Make 4.2.1"
+  },
+  "exit_codes": {
+    "resource_sync": 0,
+    "mock_coverage": 0,
+    "qmake": 0,
+    "mingw32_make": 0
+  },
+  "log": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\reports\\build.log"
+}

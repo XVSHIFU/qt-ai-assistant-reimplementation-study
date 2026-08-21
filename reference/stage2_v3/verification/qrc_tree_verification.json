@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "verify_exit_code": 0,
+  "extract_exit_code": 0,
+  "input_exe": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\SmartKey AI\\SmartKey AI.exe",
+  "calls_json": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\qresource_call_candidates_v3.json",
+  "baseline_manifest": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\authoritative_qrc_manifest_v3.json",
+  "fresh_manifest": "C:\\Users\\worker\\Documents\\smartAIKEY\\参考\\stage2_v3\\verification\\fresh_manifest.json",
+  "source_checks": {
+    "exe_sha256_matches_baseline": true,
+    "calls_json_sha256_matches_baseline": true,
+    "fresh_exe_sha256_matches_baseline": true,
+    "fresh_calls_sha256_matches_baseline": true,
+    "core_qml_results_match": true
+  },
+  "baseline_record_count": 260,
+  "fresh_record_count": 260,
+  "missing_records": [],
+  "extra_records": [],
+  "record_mismatches": [],
+  "missing_bundles": [],
+  "extra_bundles": [],
+  "bundle_mismatches": [],
+  "directory_mismatch": {
+    "missing": [],
+    "extra": []
+  },
+  "count_mismatches": {},
+  "file_failures": []
+}
