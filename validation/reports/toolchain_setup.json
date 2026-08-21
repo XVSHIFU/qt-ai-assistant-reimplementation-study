@@ -1,0 +1,21 @@
+{
+    "status":  "PASS",
+    "qt_requested":  "5.15.2",
+    "qt_arch_requested":  "win32_mingw81",
+    "compiler_requested":  "MinGW 8.1 32-bit",
+    "qmake":  "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\5.15.2\\mingw81_32\\bin\\qmake.exe",
+    "gxx":  "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\Tools\\mingw810_32\\bin\\g++.exe",
+    "mingw32_make":  "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction\\_toolchain\\Qt\\Tools\\mingw810_32\\bin\\mingw32-make.exe",
+    "install_commands":  [
+                             "aqt install-qt windows desktop 5.15.2 win32_mingw81 --outputdir \u003cproject\u003e/_toolchain/Qt",
+                             "aqt install-tool windows desktop tools_mingw qt.tools.win32_mingw810 --outputdir \u003cproject\u003e/_toolchain/Qt"
+                         ],
+    "fallback_mirror":  "https://mirrors.ocf.berkeley.edu/qt/",
+    "observed_first_install_redirect":  "qt.mirror.constant.com",
+    "qmake_version":  "QMake version 3.1\r\nUsing Qt version 5.15.2 in C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/lib",
+    "qmake_query":  "QT_SYSROOT:\r\nQT_INSTALL_PREFIX:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32\r\nQT_INSTALL_ARCHDATA:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32\r\nQT_INSTALL_DATA:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32\r\nQT_INSTALL_DOCS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/doc\r\nQT_INSTALL_HEADERS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/include\r\nQT_INSTALL_LIBS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/lib\r\nQT_INSTALL_LIBEXECS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/bin\r\nQT_INSTALL_BINS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/bin\r\nQT_INSTALL_TESTS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/tests\r\nQT_INSTALL_PLUGINS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/plugins\r\nQT_INSTALL_IMPORTS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/imports\r\nQT_INSTALL_QML:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/qml\r\nQT_INSTALL_TRANSLATIONS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/translations\r\nQT_INSTALL_CONFIGURATION:\r\nQT_INSTALL_EXAMPLES:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/examples\r\nQT_INSTALL_DEMOS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/examples\r\nQT_HOST_PREFIX:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32\r\nQT_HOST_DATA:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32\r\nQT_HOST_BINS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/bin\r\nQT_HOST_LIBS:C:/Users/worker/Documents/smartAIKEY/reconstruction/_toolchain/Qt/5.15.2/mingw81_32/lib\r\nQMAKE_SPEC:win32-g++\r\nQMAKE_XSPEC:win32-g++\r\nQMAKE_VERSION:3.1\r\nQT_VERSION:5.15.2",
+    "compiler_version":  "g++.exe (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 8.1.0\r\nCopyright (C) 2018 Free Software Foundation, Inc.\r\nThis is free software; see the source for copying conditions.  There is NO\r\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "compiler_target":  "i686-w64-mingw32",
+    "make_version":  "GNU Make 4.2.1",
+    "aqt_version":  "3.3.0"
+}

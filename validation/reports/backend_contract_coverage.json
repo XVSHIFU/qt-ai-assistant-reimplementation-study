@@ -1,0 +1,582 @@
+{
+  "status": "PASS",
+  "validation_kind": "static_contract",
+  "run_id": "20260820T053646223Z-63a7b978ce954c65b8ba733e5426c758",
+  "source_hash": "1a7dc4d2d71fbf1142a1d0d8934a114c2c196a34ecb1a60836efe5792cf1416a",
+  "checked_at": "2026-08-20T05:36:56.102063Z",
+  "source_contract": "C:\\Users\\worker\\Documents\\smartAIKEY\\reconstruction_analysis\\backend_interface_map.json",
+  "scope": "Stage3 confirmed-entry-reachable context objects after second-development integration",
+  "context_objects_registered": [
+    "device_list_HL",
+    "dialog_manager",
+    "manager",
+    "setting",
+    "window"
+  ],
+  "required_member_count": 60,
+  "covered_member_count": 60,
+  "missing_member_count": 0,
+  "missing": [],
+  "records": [
+    {
+      "object": "manager",
+      "member_path": "currentTheme",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/managerfacade.h + src/platform/systemtraycontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "manager",
+      "member_path": "itemClicked",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/managerfacade.h + src/platform/systemtraycontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "addNewChat",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "appended",
+      "access_kind": "signal_subscription",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "copy",
+      "access_kind": "method_call",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "currentIndex",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "currentIndex",
+      "access_kind": "property_write",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "deleteChatAtIndex",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "dialogInfoModel",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "dialogModel",
+      "access_kind": "property_read",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "dialogModel.clearAll",
+      "access_kind": "method_call",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "dialogModel.rowCount",
+      "access_kind": "method_call",
+      "occurrence_count": 4,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "isChatEmpty",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "isHistoryEmpty",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "modifyTitleAtIndex",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "parseJSONToCurrentChat",
+      "access_kind": "method_call",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "reasonModeActive",
+      "access_kind": "property_read",
+      "occurrence_count": 4,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "reasonModeActive",
+      "access_kind": "property_write",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "regenerate",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "responseGenerated",
+      "access_kind": "property_read",
+      "occurrence_count": 8,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "searchModeActive",
+      "access_kind": "property_read",
+      "occurrence_count": 4,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "searchModeActive",
+      "access_kind": "property_write",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "dialog_manager",
+      "member_path": "sendMessage",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/dialogmanager.* + src/app/chatmodels.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "device_list_HL",
+      "member_path": "deviceDisconnection",
+      "access_kind": "signal_subscription",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/mock/backendmocks.* (device-only placeholder)",
+      "semantics": "non-fatal device placeholder"
+    },
+    {
+      "object": "device_list_HL",
+      "member_path": "deviceListChanged",
+      "access_kind": "signal_subscription",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/mock/backendmocks.* (device-only placeholder)",
+      "semantics": "non-fatal device placeholder"
+    },
+    {
+      "object": "device_list_HL",
+      "member_path": "deviceModel.get",
+      "access_kind": "method_call",
+      "occurrence_count": 9,
+      "covered": true,
+      "implementation": "src/mock/backendmocks.* (device-only placeholder)",
+      "semantics": "non-fatal device placeholder"
+    },
+    {
+      "object": "device_list_HL",
+      "member_path": "deviceModel.rowCount",
+      "access_kind": "method_call",
+      "occurrence_count": 5,
+      "covered": true,
+      "implementation": "src/mock/backendmocks.* (device-only placeholder)",
+      "semantics": "non-fatal device placeholder"
+    },
+    {
+      "object": "device_list_HL",
+      "member_path": "reCurConfigure",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/mock/backendmocks.* (device-only placeholder)",
+      "semantics": "non-fatal device placeholder"
+    },
+    {
+      "object": "window",
+      "member_path": "agreePolicy",
+      "access_kind": "property_read",
+      "occurrence_count": 4,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "agreePolicy",
+      "access_kind": "property_write",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "allowQuestion",
+      "access_kind": "property_read",
+      "occurrence_count": 5,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "height",
+      "access_kind": "property_read",
+      "occurrence_count": 6,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "height",
+      "access_kind": "property_write",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "newVersionNumber",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "notEnough",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "openWebsite",
+      "access_kind": "method_call",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "radius",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "scale",
+      "access_kind": "property_read",
+      "occurrence_count": 5,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "setDialog",
+      "access_kind": "method_call",
+      "occurrence_count": 5,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "setFirstStart",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "setHistory",
+      "access_kind": "method_call",
+      "occurrence_count": 3,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "setXandY",
+      "access_kind": "method_call",
+      "occurrence_count": 10,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "showGuideWindow",
+      "access_kind": "method_call",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "skinMode",
+      "access_kind": "property_write",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "sysSkinType",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "topScreen",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "topScreen",
+      "access_kind": "property_write",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "updateSoft",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "width",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "x",
+      "access_kind": "property_read",
+      "occurrence_count": 10,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "window",
+      "member_path": "y",
+      "access_kind": "property_read",
+      "occurrence_count": 10,
+      "covered": true,
+      "implementation": "src/app/windowfacade.* + src/platform/windowcontroller.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "checkUpdate",
+      "access_kind": "method_call",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "currentVersion",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "setStartUpAuto",
+      "access_kind": "method_call",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "startUpAuto",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "startUpAuto",
+      "access_kind": "property_write",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "totalCount",
+      "access_kind": "property_read",
+      "occurrence_count": 2,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "updated",
+      "access_kind": "property_read",
+      "occurrence_count": 3,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "usedCount",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    },
+    {
+      "object": "setting",
+      "member_path": "usedNumCount",
+      "access_kind": "property_read",
+      "occurrence_count": 1,
+      "covered": true,
+      "implementation": "src/app/settingfacade.* + src/platform/autostartservice.*",
+      "semantics": "production implementation"
+    }
+  ],
+  "excluded_as_not_entry_reachable": [
+    "configure_Manager",
+    "config_set_HL",
+    "lang_HL",
+    "pairmanager",
+    "kb_travelDistance_manager",
+    "themeManager"
+  ],
+  "production_services": [
+    "WinHTTP/Schannel OpenAI-compatible chat",
+    "DPAPI provider credentials",
+    "SQLite chat persistence",
+    "clipboard integration",
+    "startup registration",
+    "global hotkey/system tray/single-instance window orchestration"
+  ],
+  "remaining_placeholders": [
+    "device discovery/control",
+    "software updater"
+  ]
+}

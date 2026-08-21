@@ -1,0 +1,9 @@
+********* Start testing of PlatformServicesTest *********
+Config: Using QtTest library 5.15.2, Qt 5.15.2 (i386-little_endian-ilp32 shared (dynamic) release build; by GCC 8.1.0), windows 10
+PASS   : PlatformServicesTest::initTestCase()
+FAIL!  : PlatformServicesTest::singleInstanceIdentityIsInstallPathIndependent() 'QFileInfo(primaryProbePath).size() > 0' returned FALSE. ()
+..\..\..\tests\platform\platform_services_test.cpp(133) : failure location
+QWARN  : PlatformServicesTest::singleInstanceIdentityIsInstallPathIndependent() QProcess: Destroyed while process ("C:\\Users\\worker\\AppData\\Local\\Temp\\platform_tests-HflHEU\\install-a\\platform_tests.exe") is still running.
+PASS   : PlatformServicesTest::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped, 0 blacklisted, 37459ms
+********* Finished testing of PlatformServicesTest *********

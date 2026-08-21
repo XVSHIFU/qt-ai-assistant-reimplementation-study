@@ -1,0 +1,13 @@
+{
+    "status":  "PASS",
+    "endpoint":  "https://api.deepseek.com/chat/completions",
+    "model":  "deepseek-v4-flash",
+    "transport":  "WinHTTP/Schannel",
+    "thinking_type":  "enabled",
+    "reasoning_effort":  "high",
+    "credential_source":  "current-user DPAPI profile",
+    "exit_code":  0,
+    "content_nonempty":  true,
+    "reasoning_nonempty":  true,
+    "configured_model_discovered":  true
+}
